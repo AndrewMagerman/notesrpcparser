@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.1" replicaid="C12575D0001AD0CD" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="81116" sequence="144" unid="FBBB230D0D404300C1257704005459A8">
+<created><datetime dst="true">20100413T172119,76+02</datetime></created>
+<modified><datetime dst="true">20140404T171414,68+02</datetime></modified>
+<revised><datetime dst="true">20140404T171414,67+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140404T171414,67+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20100413T172119,78+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name="$TITLE" sign="true"><text>ViewActions</text></item>
+<item name="$Flags"><text>s34Q</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+
+</note>

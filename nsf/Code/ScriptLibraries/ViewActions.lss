@@ -1,0 +1,275 @@
+'++LotusScript Development Environment:2:5:(Options):0:74
+%REM
+	Library ViewActions
+	Created Apr 13, 2010 by Andrew Magerman/A55BAE/Prominic
+	Description: Comments for Library
+%END REM
+Option Public
+Option Declare
+Use "OpenLogFunctions"
+
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Function CheckIfDirExists (strinput As String) As Boolean
+Declare Function GetFileToParse As String
+Declare Sub Click_ParseFile
+Declare Function GetConfigurationDocument As NotesDocument
+Declare Sub Click_ClearCache
+Declare Sub Click_ClearHistory
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:1:CheckIfDirExists:7:8
+'/*************************************************************************************
+' * This function, CheckIfDirExists from ViewActions, does: 	
+' * @return true if the inputted directory exists
+' * @author Andrew Magerman/A55BAE/Prominic
+' * @version Apr 13, 2010
+' *************************************************************************************/
+Function CheckIfDirExists (strinput As String) As Boolean
+	On Error GoTo ErrorHandler 
+	CheckIfDirExists = True 
+	ChDir strinput 
+	
+	Exit Function 
+ErrorHandler: 
+	CheckIfDirExists = False 
+	Resume Next 
+End Function
+
+'++LotusScript Development Environment:2:1:GetFileToParse:10:8
+'/*************************************************************************************
+' * This function, GetFileToParse from ViewActions tries to find the resulting NRPC File
+' * It's a bit complicated because the output file is (no longer) the original file name
+' * inputted in the notes.ini debug_output parameter. I loop in the destination directory and 
+' * try to find the latest file (with timestamps). The user is then asked to confirm via a dialog.
+' * @return the file we want to parse
+' * @author Andrew Magerman/A55BAE/Prominic' * 
+' * @version 2014-04-03
+' *************************************************************************************/
+Function GetFileToParse As String
+	On Error Goto ErrorHandler
+
+	'Look into the configuration document for the name that was given for the outputfile
+	Dim docConfig As NotesDocument
+	Set docCOnfig = GetConfigurationDocument()
+	Dim OutputFileNameInNotesIni As String
+	OutputFileNameInNotesIni = docConfig.txt_OutputFilename(0)
+
+	Dim strOriginalFileName As String
+	Dim strDirectory As String
+
+	'Guess the directory where the file has been saved based on the presence of backslashes or not
+	If InStr(OutputFileNameInNotesIni, "\")>0 Then
+		'There is a backslash, the directory is a rightback to the first slash
+		strDirectory = StrLeftBack(OutputFileNameInNotesIni, "\")+"\"
+		strOriginalFileName = StrRightBack(OutputFileNameInNotesIni, "\")
+	Else
+		Dim session As New Notessession
+		strDirectory = session.Getenvironmentstring("Directory", True) + "\IBM_TECHNICAL_SUPPORT\"
+		strOriginalFileName = OutputFileNameInNotesIni
+	End If
+
+	Dim OutputFileNameForParsing As String
+	Dim strSuggestedFilename As string
+
+
+	'Check if the directory is not bogus
+	If CheckIfDirExists(strDirectory) Then 
+		'Once the directory has been found, loop through the files in the directory and come with a suggestion 
+
+		Dim strFileNameShouldStartWith As String 
+		strFileNameShouldStartWith = StrLeft(strOriginalFileName, ".txt",1) ' 1 = case insensitive 
+		
+		
+		Dim strFileNameFromDir As String 
+		strFileNameFromDir= Dir$(strDirectory & strFileNameShouldStartWith & "*.txt") 
+		If strFileNameFromDir <> "" Then 
+			
+			Dim strLastFileNameFromDir As String 
+			strLastFileNameFromDir = strFileNameFromDir ' save file found 
+			
+			If strFileNameFromDir = strOriginalFileName Then ' check for any othr files in the spec <strFileNameShouldStartWith>*.txt 
+				strFileNameFromDir= Dir$() 
+			End If 
+			
+			Do While strFileNameFromDir$ <> "" ' if we found other files 
+				If strFileNameFromDir <> strOriginalFileName Then 
+					If CDat(FileDateTime(strDirectory & strFileNameFromDir))> CDat(FileDateTime(strDirectory & strLastFileNameFromDir)) Then 
+						strLastFileNameFromDir = strFileNameFromDir ' if file is newer, change LastFileName 
+					End If 
+					strFileNameFromDir$ = Dir$() ' get next file 
+				End If 
+			Loop 
+			strSuggestedFilename= strDirectory & strLastFileNameFromDir 
+		End If 
+	Else 
+		'if it is bogus, jump to file select dialog 
+		strDirectory = "" 
+	End If
+
+
+
+	'display the suggestion to the end user and ask for confirmation
+	Dim varAnswer As Variant
+	Dim ws As New NotesUIWorkspace
+	varAnswer = ws.OpenFileDialog(False,"Select file to parse", "Text Files|*.txt|Log files|*.log|All Files|*.*", strDirectory, strSuggestedFilename)
+
+
+	'return value
+	If Not (IsEmpty(varAnswer)) Then
+		GetFileToParse = CStr(varAnswer(0))
+	End If
+
+
+	Exit Function
+ErrorHandler:
+	Call logError
+	Exit Function
+End Function
+
+
+
+'++LotusScript Development Environment:2:2:Click_ParseFile:6:8
+'/*************************************************************************************
+' * This Subroutine, Click_ParseFile from ViewActions, runs the Java Parse NRPC File Agent.
+' * @author Andrew Magerman/A55BAE/Prominic
+' * @version 2013-10-30
+' *************************************************************************************/
+Sub Click_ParseFile
+	On Error Goto ErrorHandler
+
+	Dim s As New NotesSession
+	Print "Please wait while RPC data is parsed..."
+	Dim strFileToParse As String
+	
+	Dim starttime As Single
+	starttime = Timer()
+	
+	strFileToParse = GetFileToParse()
+	If strFileToParse <>"" Then
+		Dim docConfig As NotesDocument
+		Set docConfig = GetConfigurationDocument()
+		docConfig.txt_ParseThisFile = strFileToParse
+		Call docConfig.Save(True, True)
+		
+		Dim agentParse As NotesAgent
+		Set agentParse = s.CurrentDatabase.GetAgent("Java Parse NRPC File")
+		'It's run and not runonserver because we need access to the local rpc file, duh!
+		Call agentParse.Run()
+		
+		Dim w As New NotesUIWorkspace
+		Call w.ViewRefresh
+		
+		Dim elapsedTime As Single
+		elapsedTime = Timer() - starttime
+		
+		Print "RPC data has now been parsed... (duration: " + CStr(elapsedTime) + " seconds)"
+	End if
+
+	Exit Sub
+ErrorHandler:
+	Call logError
+	Exit Sub
+End Sub
+
+'++LotusScript Development Environment:2:1:GetConfigurationDocument:7:8
+'/*************************************************************************************
+' * This function, GetConfigurationDocument from ViewActions, does what it says.
+' * @return the config profile document, Config
+' * @author Andrew Magerman/A55BAE/Prominic
+' * @version Apr 13, 2010
+' *************************************************************************************/
+Function GetConfigurationDocument As NotesDocument
+	On Error Goto ErrorHandler
+	Dim session As New NotesSession
+	Dim db As NotesDatabase
+	Set db= session.Currentdatabase
+
+	Set GetConfigurationDocument = db.Getprofiledocument("Config", session.UserName)
+
+
+	Exit Function
+ErrorHandler:
+	Call logError
+	Exit Function
+End Function
+
+
+
+'++LotusScript Development Environment:2:2:Click_ClearCache:7:8
+'/*************************************************************************************
+' * Sub Click_ClearCache. Clears the local cache
+' * @author Andrew Magerman/Magerman/NotesNet
+' * @version Apr 3, 2014
+' *************************************************************************************/
+
+Sub Click_ClearCache
+	Dim WorkSpace As New NotesUIWorkspace
+	Dim Doc As NotesDocument
+	Dim nextDoc As NotesDocument
+	Dim i As Long
+	Dim countAllDocs As Long
+
+	On Error GoTo ErrorHandler
+
+	Dim DbCache As NotesDatabase
+	Set DbCache = New NotesDatabase ("", "cache.ndk")
+
+	Dim AllDocs As NotesDocumentCollection
+	Set AllDocs = DbCache.AllDocuments
+	countAllDocs = AllDocs.Count
+	If countAllDocs > 0 Then
+		Print "deleting documents from cache.ndk ..."
+		Set Doc = AllDocs.GetFirstDocument
+		While Not ( Doc Is Nothing )
+			i = i + 1
+			Set NextDoc = AllDocs.GetNextDocument ( Doc )
+			Print "deleting documents from cache.ndk (" & CStr (i) & "/" & CStr ( countAllDocs ) & ")"
+			Call Doc.RemovePermanently ( True )
+			Set Doc = NextDoc
+		Wend
+	End If
+	
+	Print "Compacting cache.ndk"
+	Call DbCache.Compact
+
+	Call WorkSpace.Prompt (PROMPT_OK, "Cache.ndk cleared and compacted", "The local cache (cache.ndk) has been emptied and compacted. You should now restart Lotus Notes" )
+
+
+
+	Exit Sub
+ErrorHandler:
+	Call logError
+	Exit Sub
+	
+End Sub
+
+
+
+'++LotusScript Development Environment:2:2:Click_ClearHistory:6:8
+'/*************************************************************************************
+' * Sub Click_ClearHistory
+' * @author Andrew Magerman/Magerman/NotesNet
+' * @version Apr 3, 2014
+' *************************************************************************************/
+Sub Click_ClearHistory
+	On Error GoTo Errorhandler
+	
+		Dim session As New NotesSession
+		Dim db As NotesDatabase
+		Set db = session.Currentdatabase
+		Dim strsearch As String
+		strsearch = |SELECT Form="RPCLine" & ShowInLatestParsingViewNO != 1|
+		Dim collSearched As NotesDocumentCollection
+		Set collSearched = db.Search(strSearch, Nothing, 0)
+		collSearched.Removeall(true)
+
+	
+	Exit Sub
+ErrorHandler:
+	Call logError
+	Exit Sub
+	
+	
+End Sub

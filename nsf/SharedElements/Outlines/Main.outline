@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='filter' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
+ replicaid='C12575D0001AD0CD'>
+<noteinfo noteid='1b6' unid='7C7FED3983B417AB852573E200808D21' sequence='7'>
+<created><datetime>20080201T182407,37-05</datetime></created>
+<modified><datetime dst='true'>20140403T170824,10+02</datetime></modified>
+<revised><datetime dst='true'>20140403T170824,09+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140403T170824,09+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20090609T065315,01+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jamie Magee/O=MSC</name><name>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name
+>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name='$SiteMapList' sign='true'>
+<rawitemdata type='1a'>
+AQYBAAEAAwBIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAADAEgAfAABCAAAAQAAAAAAAAAOAAAAMgAAADAAAAAMAAAAAAAAAAAA
+AwACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFTW9zdCByZWNlbnQAAQD2/y8AAAAA
+AAMAAgANAAAAAAAAAAAAAAAAAAAAAAAAAAAATGF0ZXN0UGFyc2luZz8BAPb/LQAAAAAAAwATAAsA
+AAAAAAAAAAAAAAAAAAAAAAAAAABBbmFseXplLmpwZz8ABU5vdGVzVmlldwBIAHQAAQgAAAIAAAAA
+AAAACgAAACwAAAAyAAAADAAAAAAAAAAAAAMAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAABUhpc3RvcnkAAQD2/ykAAAAAAAMAAgAHAAAAAAAAAAAAAAAAAAAAAAAAAAAASGlzdG9yeT8B
+APb/LwAAAAAAAwATAA0AAAAAAAAAAAAAAAAAAAAAAAAAAABDbGlwYm9hcmQuanBnPwAFTm90ZXNW
+aWV3AEgAlAAACAAAZAAAAAAAAAAQAAAASAAAADwAAAAAAAAAAAAAAAAABQAOAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAFQ29uZmlndXJhdGlvbgABAPb/RgABAAAABQAOACwAAAAAAAAA
+AAAAAAAALAAAAB4AAgAiJwAAAAAAAAEABgBDb25maWf0AO0DAwAHAAwABQAJNFM2UwABAPb/OQAA
+AAAAAwATABcAAAAAAAAAAAAAAAAAAAAAAAAAAABDb25maWd1cmF0aW9uIFRvb2xzLmpwZz8=
+</rawitemdata></item>
+<item name='$TITLE'><text>Main</text></item>
+<item name='$Flags'><text>m</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item></note>
+

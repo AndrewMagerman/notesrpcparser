@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
+ replicaid='C12575D0001AD0CD'>
+<noteinfo noteid='815ee' unid='77A089BA840DC7ABC1257C1D003B629D' sequence='2'>
+<created><datetime>20131108T114838,69+01</datetime></created>
+<modified><datetime dst='true'>20140403T092625,22+02</datetime></modified>
+<revised><datetime dst='true'>20140403T092625,21+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140403T092625,21+02</datetime></lastaccessed>
+<addedtofile><datetime>20131108T114838,71+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+JAAFABoAFQACAAkABAAkQ29uZmxpY3QkUkVGAAAACABmAAMA
+</formula></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQABAAEACAAAAFZDAwQMAAYAJgAAACIAAQEKCgABAAAIAAAAAAICAAAAdHh0X1RocmVhZElEVGhy
+ZWFkJgACACQADAB0eHRfVGhyZWFkSUQFAAwAdHh0X1RocmVhZElEAwAmAAEAAAABAQAJAQAACgEB
+AAoAAAEArSsBAAEAAQAAAAAAAAAAAFdDAQAKCQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA
+AAAAAAAAAAAAAABCABAAAAABAP///wAFAP///wABAAAAAAAAAAAAAAAAAAEA////AAEA////AAAA
+AQAAAAAAAQAAAAAAAAAAAAAAAAAIAAAAAAABAA==
+</rawitemdata></item>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$Flags'><text>^Y</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$WebFlags'><text>^Y</text></item>
+<item name='$TITLE' sign='true'><text>thread</text></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+BgAAAABE
+</rawitemdata></item></note>
+

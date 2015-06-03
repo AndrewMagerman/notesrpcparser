@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.1" replicaid="C12575D0001AD0CD" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="442" sequence="53" unid="9CE2E4DF4642D87BC1257668000E6C5B">
+<created><datetime>20091108T033732,43+01</datetime></created>
+<modified><datetime dst="true">20140418T142528,96+02</datetime></modified>
+<revised><datetime dst="true">20080905T105347,07+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140418T142528,95+02</datetime></lastaccessed>
+<addedtofile><datetime>20091108T033736,07+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Julian Robichaux/O=nsftools</name><name>CN=Andrew MAGERMAN/OU=CH/OU=ITC/O=non-ALSTOM</name></updatedby>
+<wassignedby><name>CN=Andrew MAGERMAN/OU=CH/OU=ITC/O=non-ALSTOM</name></wassignedby>
+<item name="$TITLE" sign="true"><text>OpenLogFunctions</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+
+
+<item name="$Class"><text>OpenLog 1.5 Type A</text></item>
+<item name="$Flags"><text>s34Q</text></item></note>

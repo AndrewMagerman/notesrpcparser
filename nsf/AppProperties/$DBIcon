@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
+ replicaid='C12575D0001AD0CD'>
+<noteinfo noteid='81736' unid='576D381F863AD563C1257CAF003F6495' sequence='1'>
+<created><datetime dst='true'>20140403T133225,17+02</datetime></created>
+<modified><datetime dst='true'>20140403T133225,33+02</datetime></modified>
+<revised><datetime dst='true'>20140403T133225,32+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140403T133225,32+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20140403T133225,32+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name='$TITLE'><text>$DBIcon</text></item>
+<item name='$Flags'><text>34Ci~Q</text></item>
+<item name='$ImagesWide' sign='true'><number>1</number></item>
+<item name='$ImagesHigh' sign='true'><number>1</number></item>
+<item name='$ImagesColorize' sign='true'><number>0</number></item>
+<item name='$FileSize' sign='true'><number>818</number></item>
+<item name='$ImageData' sign='true'>
+<rawitemdata type='1'>
+mQAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAH0AHAAAAAIAAAAAADIDAAABAAAAAAAAAAAAAAB8
+ADwDAAAyAzID/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsU
+FRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3
+JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAAR
+CAAgACADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwUGBP/EACsQAAICAgEEAQMCBwAA
+AAAAAAECAwQFESEABhIxE0FRcSNhByIyQlKB8P/EABYBAQEBAAAAAAAAAAAAAAAAAAMCBf/EACMR
+AAIDAAAEBwAAAAAAAAAAAAECAAMREhMhQSIxYYGx0eH/2gAMAwEAAhEDEQA/AFvYOHGQu1o1xuPn
+gSvE0ny0YpNAxKSSWGzsn3v69Em7QyOa7hZFxuKwlb+lYpa8IaQj/FfHZ2ftwN9Kq/cFHD41KlKG
+SS9ap1xJMzaCfpodKPr6HJ6r6sV7vDAtbNaGDLwyKI7XEZs8H+Xf1ca31rcvFD4MwD9maXYMQNmb
+Ex9rYaKxD3DSrG1HtGRsbAygg64Pjvf54/PSLJYfB2oMhYxeSoNBHVnljrvQSOXYjYgBlX2NDnY9
+daM4brVZK/esDyIJNR5Ci0bSo+uUk17Gvvzx+ep9+3a607OU7dvy3aMVedbKSL4yQ7ifRI9FT9x1
+LooUnO3p9S6yxIHFC9u4OXJX1Za0kqrUrsWUb0PiT/tdUn8RLNvFz0qlBvjr1kWSH4Dyp1osSP7i
+Rz1MZPNTSUMZRxc9NKkdSBpdWolZpfiUMW2wOwdjX7dPzlYYoqFClZxPwCuPnaxbhfydjtgT5cDj
+0OmrsUBTo6dvaHaj8ROecB3BnrdJ6mTqRhostWWS1XdfJGkBKsSPXJBP+z1hjsYyeLIW8RbXHyyY
++dbFA70/6TbCnng+9H11R9x910JYqD48YycQE1pVeeHfgoGmQFuFbn9x9ffULk8NWo3ZbtTJ4+ap
+LXmKoluMupaNgFK+W97IHRNcDWc+YldfiG9J/9k=
+</rawitemdata></item>
+<item name='$MimeType' sign='true'><text>image/jpeg</text></item>
+<item name='$FileModDT' sign='true'><datetime dst='true'>20140403T133122,00+02</datetime></item>
+<item name='$ImageNames' sign='true'><text>C:\Users\Andrew Magerman\Dropbox\Current Projects\NRPC\images\lightning.jpg</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item></note>
+

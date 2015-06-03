@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
+ maintenanceversion='1.1' replicaid='C12575D0001AD0CD'>
+<noteinfo noteid='116' unid='E74B2E26978FE18AC12573D00039A9F4' sequence='20'>
+<created><datetime>20080114T112950,60+01</datetime></created>
+<modified><datetime dst='true'>20140403T171903,11+02</datetime></modified>
+<revised><datetime dst='true'>20140403T171903,10+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140403T171903,10+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20090609T065255,07+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jamie Magee/O=MSC</name><name>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name
+>CN=albis/O=magerman</name><name>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name
+>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<item name='IconBitmap' summary='true'>
+<rawitemdata type='6'>
+AiAgAQAAwAB/wb///8B////kf///5H///+R/Hj/kfwYf5H+CD8B/wAfBf+AD/3/wAf9/+CD/f/ww
+f3/+PH9//z5/f////7/////AAAAA////////////////////////////////////////////////
+//////////////////////////8A7u7u7u7u7u7u7u7uIiIuDgAAAAAAAAAAAAAAACIiIuAAAAAA
+AAAAAAAAAAACICLgAAAAAAAAAAAAAAAAAiAi4AAAAAAAAAAAAAAAAAIgIuAAAADg4AAMDgAAAAAC
+ICLgAAAAxsDgDGDgAAAAAiAi4AAAAAxsDgxmDgAAACIiIuAAAAAAxmDsZmDgAAAiIiDgAAAAAAxm
+AGZmDgAAAAAA4AAAAAAAxmZgBmDgAAAAAOAAAAAAAAxmYAxmDgAAAADgAAAAAAAAxmAAzGDgAAAA
+4AAAAAAAAAxgAADGAAAAAOAAAAAAAAAAzAAADAAAAADgAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAA
+AAAAAAAAAADu7u7u7u7u7u7u7u7u7u4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$DefaultFrameset'><text>Main</text></item>
+<item name='$TITLE'><text>NRPC Parser 1.0 (Development)
+#1D-NRPC Parser 1.0</text></item>
+<item name='$LaunchXPageRunOnServer'><text>0</text></item>
+<item name='$FlagsNoRefresh'><text/></item>
+<item name='$Daos'><text>0</text></item>
+<item name='$Flags'><text>JFqNZ7</text></item></note>
+

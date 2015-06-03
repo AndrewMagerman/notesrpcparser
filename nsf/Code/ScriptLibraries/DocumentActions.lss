@@ -1,0 +1,101 @@
+'++LotusScript Development Environment:2:5:(Options):0:74
+%REM
+	Library DocumentActions
+	Created Apr 3, 2014 by Andrew Magerman/Magerman/NotesNet
+	Description: Comments for Library
+%END REM
+Option Public
+Option Declare
+
+
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Click_JumpToNote
+Declare Sub Click_JumpToDesignElement
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:Click_JumpToNote:7:8
+'/*************************************************************************************
+' * Sub Click_JumpToNote
+' * @author Andrew Magerman/Magerman/NotesNet
+' * @version Apr 4, 2014
+' *************************************************************************************/
+
+Sub Click_JumpToNote
+	Dim ws As New NotesUIWorkspace
+
+	Dim uidoc As NotesUIDocument
+	Set uidoc = ws.CurrentDocument
+	
+	Dim session As New NotesSession
+	Dim NotesProgramPath As String
+	NotesProgramPath = session.Getenvironmentstring("NotesProgram", True)
+
+	Dim server As String
+	If LCase(uidoc.FieldGetText("txt_ServerName")) = "local" Then
+		server=""
+	Else
+		Dim servername As New NotesName(uidoc.FieldGetText("txt_ServerName"))
+		server = servername.Common
+	End If
+
+	Dim ExecString As String 
+	Dim ProgramToOpenWith As String
+
+	Select Case uidoc.FieldGetText("txt_Category")
+		Case "Design note"
+			ProgramToOpenWith = "\designer.exe Notes://"
+			ExecString$ = NotesProgramPath + ProgramToOpenWith + server + "/" + uidoc.FieldGetText("txt_DBFilePath") + "/" + uidoc.FieldGetText("txt_NoteUNID")
+			
+		Case "Data note"			
+			ProgramToOpenWith = "\notes.exe Notes://"
+			ExecString$ = NotesProgramPath + ProgramToOpenWith + server + "/" + uidoc.FieldGetText("txt_DBFilePath") + "/0/" + uidoc.FieldGetText("txt_NoteUNID")
+			
+		Case Else
+			Exit sub
+	End Select
+
+
+	
+
+	Print ExecString$
+	Dim TaskID As Integer
+	taskID% = Shell(ExecString$, 1)
+End Sub
+
+'++LotusScript Development Environment:2:2:Click_JumpToDesignElement:8:8
+'/*************************************************************************************
+' * Sub Click_JumpToDesignElement
+' * @param 
+' * @author Andrew Magerman/Magerman/NotesNet
+' * @version Apr 3, 2014
+' *************************************************************************************/
+
+Sub Click_JumpToDesignElement
+	'code by Jamie Magee, modified by Andrew Magerman 2010-01-08
+	Dim ws As New NotesUIWorkspace
+
+	Dim uidoc As NotesUIDocument
+	Set uidoc = ws.CurrentDocument
+				
+	Dim session As New NotesSession
+	Dim NotesProgramPath As String
+	NotesProgramPath = session.Getenvironmentstring("NotesProgram", True)
+
+	Dim server As String
+	If LCase(uidoc.FieldGetText("txt_ServerName")) = "local" Then
+		server=""
+	Else
+		Dim servername As New NotesName(uidoc.FieldGetText("txt_ServerName"))
+		server = servername.Common
+	End If
+
+	Dim ExecString As String 
+	ExecString$ = NotesProgramPath + "\designer.exe Notes://" + server + "/" + uidoc.FieldGetText("txt_DBFilePath") + "/" + uidoc.FieldGetText("txt_NoteUNID")
+
+	Print ExecString$
+	Dim TaskID As Integer
+	taskID% = Shell(ExecString$, 1)
+End Sub
+

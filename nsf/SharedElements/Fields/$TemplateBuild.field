@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='sharedfield' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
+ replicaid='C12575D0001AD0CD'>
+<noteinfo noteid='1ee' unid='C12575D0001AD0CD85256C6A006EF262' sequence='60'>
+<created><datetime>20021107T151150,10-05</datetime></created>
+<modified><datetime dst='true'>20140403T120143,33+02</datetime></modified>
+<revised><datetime dst='true'>20140403T120143,32+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140403T120143,32+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20090609T065325,28+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew MAGERMAN/OU=CH/OU=ITC/O=non-ALSTOM</name><name
+>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<revisions><datetime>20061214T092022,67-05</datetime></revisions>
+<item name='$Fields'><text>$TemplateBuild</text></item>
+<item name='$Flags'><text/></item>
+<item name='$Info' sign='true'><text>$TemplateBuild</text></item>
+<item name='$Body' summary='true' sign='true'>
+<rawitemdata type='1'>
+gQKC/1IAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAgwQBAIX/CAAAAAAA3QYAAIr/iv8yAIoAAAUAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAJFRlbXBsYXRlQnVpbGTeBgAAiv+F/wgAAAAAAA==
+</rawitemdata></item>
+<item name='$TemplateBuild' sign='true'><text>1.0.13</text></item>
+<item name='$TemplateBuildName' sign='true'><text>NRPC Parser</text></item>
+<item name='$LANGUAGE' sign='true'><text>en</text></item>
+<item name='$TemplateBuildDate' sign='true'><datetime dst='true'>20140403T120143,00+02</datetime></item>
+<item name='$TITLE' sign='true'><text>$TemplateBuild</text></item>
+<item name='$DesignerVersion' sign='true'><text>7</text></item></note>
+

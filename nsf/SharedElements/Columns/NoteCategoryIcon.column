@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
+ replicaid='C12575D0001AD0CD'>
+<noteinfo noteid='818b2' unid='C1703972F9797710C1257CB000518EE3' sequence='2'>
+<created><datetime dst='true'>20140404T165049,95+02</datetime></created>
+<modified><datetime dst='true'>20140404T165050,19+02</datetime></modified>
+<revised><datetime dst='true'>20140404T165050,17+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140404T165050,18+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20140404T165050,13+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$SourceSeqTime'><datetime dst='true'>20140404T165050,13+02</datetime></item>
+<item name='$SourceSequence'><text>00000001</text></item>
+<item name='$SourceURL'><textlist><text>Notes:///C12575D0001AD0CD//C1703972F9797710C1257CB000518EE3</text><text
+>Notes:///C12575D0001AD0CD:C12575D0001AD0CD:D3A6E40E//818B2</text></textlist></item>
+<item name='$ClassName'><text>View</text></item>
+<item name='$SourceDbPath'><text>CN=albis/O=magerman!!Development\NRPC Parser\NRPC Parser1_0\Nrpc_Parser_(1_0)_Dev.nsf</text></item>
+<item name='$CacheDocVersion'><number>1</number></item>
+<item name='$TITLE' sign='true'><text>NoteCategoryIcon</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+5gACALoAAwAkMTcABQAMAHR4dF9DYXRlZ29yeQEACwBEZXNpZ24gbm90ZQAKAq8AigAQAAAAAAAA
+AAAAXUCuAHoABQAMAHR4dF9DYXRlZ29yeQEACQBEYXRhIG5vdGUACgKvAFYAEAAAAAAAAAAAQF1A
+rgBGAAUACwB0eHRfQ29tbWFuZAABABAAcHJvZmlsZSBkb2N1bWVudEcCrwAcABAAAAAAAAAAAIBd
+QK4ADAABAAAArgAEALUHAwAFAB4AGgADAAMACQAEACQxNyRDb25mbGljdCRSRUYEAAQAAAAIAGYA
+AwA=
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+BgAAAABE
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQABAAEACAAQAFZDQAADAAAAyAAAAAgAAQAACgAAAAAAAAAAAAICAAAAJDE3yAACALoAAwAkMTcA
+BQAMAHR4dF9DYXRlZ29yeQEACwBEZXNpZ24gbm90ZQAKAq8AigAQAAAAAAAAAAAAXUCuAHoABQAM
+AHR4dF9DYXRlZ29yeQEACQBEYXRhIG5vdGUACgKvAFYAEAAAAAAAAAAAQF1ArgBGAAUACwB0eHRf
+Q29tbWFuZAABABAAcHJvZmlsZSBkb2N1bWVudEcCrwAcABAAAAAAAAAAAIBdQK4ADAABAAAArgAE
+ALUHAwAHAAwABQAJMFMwRQAmAAEAAAABAQAJAQAACgEBDgoAAAEArSsBAAEAAQAAAAAAAAAAAFdD
+AQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABCAAAAAAABAP///wAF
+AP///wABAAAAAAAAAAAAAAAAAAEA////AAEA////AAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAIAAAA
+AAABAA==
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Flags'><text>^Y</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item></note>
+

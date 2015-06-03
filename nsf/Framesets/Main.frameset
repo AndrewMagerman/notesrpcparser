@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
+ replicaid='C12575D0001AD0CD'>
+<noteinfo noteid='1be' unid='736340575C758F59852573E200806677' sequence='36'>
+<created><datetime>20080201T182228,39-05</datetime></created>
+<modified><datetime dst='true'>20140404T151838,80+02</datetime></modified>
+<revised><datetime dst='true'>20140404T151838,79+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140404T151838,79+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20090609T065316,15+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name='$TITLE' sign='true'><text>Main</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$FrameSet' sign='true'>
+<rawitemdata type='1'>
+7/8YAAIABQAAAAAAAAAAAAAAAAAAAAAA8P8+AEUAAAAAAAAAAAABAAEAAAAAAAUAAAAAAAUAAAAA
+AAEAAgAAAAAAAQCAgIAAAAADAAEAAQDrAAIAVgDw/z4AAQAAAAAAAAAAAAEAAQAAAAAABQAAAAAA
+BQAAAAAAAgABAAAAAAAFAICAgAAAAAMAKwABANABAwABAPH/OAARAAAAAEAAAQIAAQABAAAAAAAE
+AAAAAAABAICAgAAAAGxlZnQBAP///wABAAAKAQAAAAAA9v8qAAAAAAADAAcACAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAExlZnRQYW5l8f8+ABEAAAAAQAABAgABAAEAAAAAAAoAAAAAAAEAgICAAAAAYm90
+dG9tbGVmdAEA////AAEAAAoBAAAAAAD2/zAAAAAAAAMABwAOAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Qm90dG9tTGVmdFBhbmXx/z0AAQEAAABAAAADAAEAAQAAAAAACQAAAAAAAQCAgIAAAABOb3Rlc1Zp
+ZXcBAP///wABAAAKAQAAAAAAP/b/LwAAAAAAAwACAA0AAAAAAAAAAAAAAAAAAAAAAAAAAABMYXRl
+c3RQYXJzaW5nPw==
+</rawitemdata></item>
+<item name='$Flags'><text>#34CQ</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item></note>
+

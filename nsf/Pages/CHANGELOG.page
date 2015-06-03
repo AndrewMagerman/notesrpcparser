@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
+ replicaid='C12575D0001AD0CD'>
+<noteinfo noteid='3e6' unid='7F1A4B5825DE78E6C125761A00593F8E' sequence='9'>
+<created><datetime dst='true'>20090822T181449,74+02</datetime></created>
+<modified><datetime dst='true'>20140403T131833,31+02</datetime></modified>
+<revised><datetime dst='true'>20140403T131833,30+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140403T131833,30+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20090822T181801,34+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>CHANGELOG</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$Fonts'>
+<rawitemdata type='1'>
+i/8oAAEABTVDb25zb2xhcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>CHANGELOG</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8qAAEBAApjaGFuZ2VzIG1h
+ZGUgYnkgYW5tYSBvbiAyMDE0LTA0LTAzgQKDBAEAhf+IAAEAAApkZWJ1Z2dlZCBqYXZhIHBhcnNl
+IGFnZW50IHdoZW4gdGhlIGlucHV0IGZpbGUgY29udGFpbmVkIHJlZmVyZW5jZXMgdG8gZGF0YWJh
+c2VzIG9ubHkgd2l0aCBzZXJ2ZXIgYW5kIGZpbGVuYW1lIGFuZCBub3QgcmVwbGljYUlELoECgwQB
+AIX/EQABAAAKZGVidWdnZWQgAN0GAACF/4X/FgAFBAQMR2V0RmlsZVRvUGFyc2XSCAEAAAD/AN4G
+AACF/4X/ZgABAAAKIChWaWV3QWN0aW9ucykgd2hlbiB0aGVyZSBpcyBhIGZpbGVwYXRoIGluIHRo
+ZSBjb25maWd1cmF0aW9uIGZpbGUgKHRoYW5rcyB0byBMYXJzIEJlbnRyb3AtQm9zKYECgwQBAIX/
+OAABAAAKYWRkZWQgYWN0aW9ucyB0byBjbGVhciBjYWNoZS5uZGsgYW5kIGNsb3NlIG5vdGVzgQKD
+BAEAhf+OAAEAAApKdW1wIFRvIERlc2lnbmVsZW1lbnQgbm93IHdvcmtzIGZvciBhbGwgdmVyc2lv
+bnMgb2Ygbm90ZXMgKG5vIG1vcmUgaGFyZC1jb2RlZCByZWdpc3RyeSBzZWFyY2hlcykuIFRoYW5r
+cyB0byBEYW5pZWwgTmFzaGVkIGZvciB0aGUgdGlwLoECgwQBAIX/CQABAAAKIACBAoMEAQCF/wgA
+AQEACoECgwQBAIX/CAABAQAKgQKDBAEAhf81AAEBAApjaGFuZ2VzIG1hZGUgYnkgYW5kcmV3IG1h
+Z2VybWFuIG9uIDIwMDktMDktMDcAgQKDBAEAhf89AAEAAAphZGRlZAkidGl0bGUiIGFuZCAidHlw
+ZSIgdG8gdmlld3MsIGZvbGRlcnMsIGFuZCBjbGFzcwCBAoMEAQCF/08AAQAACmNoYW5nZWQgbG9n
+aWMgb2YgImdldHRpbmcgZmlsZW5hbWUiIHNvIHRoYXQgdGhlIGxhdGVzdCBpcyBhbHdheXMgY2hv
+c2VuAIECgwQBAIX/HwABAAAKYWRkZWQgYSBkZWZpbml0aW9uIGZvciAA3QYAAIX/hf8YAAEBBAhE
+Ql9NT0RJRklFRF9USU1F0ggBAAAA/wDeBgAAhf8=
+</rawitemdata></item></note>
+

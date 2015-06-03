@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
+ replicaid='C12575D0001AD0CD'>
+<noteinfo noteid='815f2' unid='E8442AAEBE04B6ECC1257C1D003B629E' sequence='2'>
+<created><datetime>20131108T114838,70+01</datetime></created>
+<modified><datetime dst='true'>20140403T092625,06+02</datetime></modified>
+<revised><datetime dst='true'>20140403T092625,05+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140403T092625,05+02</datetime></lastaccessed>
+<addedtofile><datetime>20131108T114838,73+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+JAAFABoAFQACAAkABAAkQ29uZmxpY3QkUkVGAAAACABmAAMA
+</formula></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQABAAEACAAAAFZDCAADAAYAHAMAAFsAAQAACAAAAAAIAAAAAAICAAAAJDEwQ29sb3VyHAMBADYA
+DAByZWQA7RY7AB18JQAAAAAAAAAA4G9AAAAAAAAAAAAAAB8CAAAAAAAAAAAAAB8CAwAHAAwABQAJ
+MVMyUwABADgADQBibHVlAO4WOwAdfCUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwIAAAAAAAAA4G9A
+HwIDAAcADgAHAAkwUjFTMlMAAQA6AA8AeWVsbG93AO8WOwAdfCUAAAAAAAAAAADgb0AAAAAAAAAA
+4G9AHwIAAAAAAAAAAAAAHwIDAAcADgAHAAkwUjFTMlMAAQA4AA0AcGluawDwFjsAHXwlAAAAAAAA
+AAAA4G9AAAAAAAAAACBoQB8CAAAAAAAAAKBvQB8CAwAHAA4ABwAJMFIxUzJTAAEAOAAOAHdoaXRl
+APEWOwAdfCUAAAAAAAAAAOBvQAAAAAAAAADgb0AfAgAAAAAAAADgb0AfAgMABwAOAAcACTBSMVMy
+UwABADgADgBibGFjawDyFjsAHXwlAAAAAAAAAAAA8D8AAAAAAAAAAPA/HwIAAAAAAAAAAPA/HwID
+AAcAEAAJAAkwUjFTMlMyRQABADoAEABhcHJpY290APMWOwAdfCUAAAAAAAAAAOBvQAAAAAAAAABg
+Y0AfAgAAAAAAAACgYEAfAgMABwAOAAcACTBSMVMyUwABADgADgBwbGFpbgD0FjsAHXwlAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAHwIAAAAAAAAAAAAAHwIDAAcADAAFAAkwUjJTAAIAygADACQxMAAFAAgA
+dHh0X1R5cGUBAAgARGF0YWJhc2UKAq8AogAsAAUADQBibHVlAO4WOwAdfCUAAAUADgB3aGl0ZQDx
+FjsAHXwlAB8CrgB2AAUACAB0eHRfVHlwZQEACABEb2N1bWVudAoCrwBYACoABQAMAHJlZADtFjsA
+HXwlAAUADgB3aGl0ZQDxFjsAHXwlAB8CrgAuAAUADgB3aGl0ZQDxFjsAHXwlAAUADgBibGFjawDy
+FjsAHXwlAB8CrgAEALUFAwAHACAAGgAJMFIyUjNTNFM2UzEwUjExUzEyUzE0UzE4UiYAAQAAAAEB
+AAkBAAAKAQEACgAAAQCtKwEAAQABAAAAAAAAAAAAV0MBAAoJAAAAAAAAAAAAAAAAAAAAAAAAJAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAEIAEAAAAAEA////AAUA////AAEAAAAAAAAAAAAAAAAAAQD///8A
+AQD///8AAAABAAAAAAABAAAAAAAAAAAAAAAAAAgAAAAAAAEA
+</rawitemdata></item>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$Flags'><text>^Y</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$WebFlags'><text>^Y</text></item>
+<item name='$TITLE' sign='true'><text>standard colour</text></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+BgAAAABE
+</rawitemdata></item></note>
+

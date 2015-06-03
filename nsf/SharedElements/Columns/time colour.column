@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.1'
+ replicaid='C12575D0001AD0CD'>
+<noteinfo noteid='8160e' unid='4A335D82D1D6476BC1257C1D003B62A8' sequence='2'>
+<created><datetime>20131108T114838,80+01</datetime></created>
+<modified><datetime dst='true'>20140403T092625,38+02</datetime></modified>
+<revised><datetime dst='true'>20140403T092625,37+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140403T092625,37+02</datetime></lastaccessed>
+<addedtofile><datetime>20131108T114838,87+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Andrew Magerman/OU=A55BAE/O=Prominic</name><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></updatedby>
+<wassignedby><name>CN=Andrew Magerman/OU=Magerman/O=NotesNet</name></wassignedby>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+JAAFABoAFQACAAkABAAkQ29uZmxpY3QkUkVGAAAACABmAAMA
+</formula></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQABAAEACAAAAFZDCAACAAYAJAEAAGgAAQAACgAAAAAIAAAAAAICAAAAJDVDb2xvdXIkAQEAXAAN
+AF9yZWQA7RY7AB18JQAAAAAAAAAAAOBvQAAAAAAAAADgb0AfAgAAAAAAAADgb0AfAgAAAAAAAADg
+b0AfAgAAAAAAAAAAAAAfAgAAAAAAAAAAAAAfAgMABwAMAAUACTFTMlMAAQBeAA8AX2JsYWNrAO4W
+OwAdfCUAAAAAAAAAAADgb0AAAAAAAAAA4G9AHwIAAAAAAAAA4G9AHwIAAAAAAAAAAAAAHwIAAAAA
+AAAAAAAAHwIAAAAAAAAAAAAAHwIDAAcAEAAJAAkwUjFTMlMyRQACAD4AAgAkNQUACABTSE9XU0xP
+V2gBrwAkABgABQANAF9yZWQA7RY7AB18JQAArgAMAAEAAACuAAQAtQMDAAcADgAHAAkwUjdTOVMA
+JgABAAAAAQEACQEAAAoBAQAKAAABAK0rAQABAAEAAAAAAAAAAABXQwEACgkAAAAAAAAAAAAAAAAA
+AAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAQAAAAAQD///8ABQD///8AAQAAAAAAAAAAAAAA
+AAABAP///wABAP///wAAAAEAAAAAAAEAAAAAAAAAAAAAAAAACAAAAAAAAQA=
+</rawitemdata></item>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$Flags'><text>^Y</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$WebFlags'><text>^Y</text></item>
+<item name='$TITLE' sign='true'><text>time colour</text></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+BgAAAABE
+</rawitemdata></item></note>
+
