@@ -1,22 +1,21 @@
 package com.magerman.nrpc;
 
 public enum NoteCategory {
-   
-    DATA ("Data note"),
-    DESIGN ("Design note"),
-    PROFILE ("Profile document");
 
-    private final String name;       
+    DATA("Data note"), DESIGN("Design note"), PROFILE("Profile document");
 
-    private NoteCategory(String s) {
-        name = s;
+    private final String name;
+
+    private NoteCategory(String name) {
+        this.name = name;
     }
 
-    public boolean equalsName(String otherName){
-        return (otherName == null)? false:name.equals(otherName);
+    public boolean equalsName(String otherName) {
+        return (otherName == null) ? false : name.equals(otherName);
     }
 
-    public String toString(){
-       return name;
+    @Override
+    public String toString() {
+        return name;
     }
 }
